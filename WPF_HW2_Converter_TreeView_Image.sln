@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_HW2_Converter_TreeView_Image", "WPF_HW2_Converter_TreeView_Image\WPF_HW2_Converter_TreeView_Image.csproj", "{12562484-2C48-4262-8467-4AEE003E8B2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Converter\Converter.csproj", "{B0366493-E368-4C8E-B32F-DCA07CA5F519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeView.csproj", "{F4A57F72-641E-4D03-8F4A-ED14721A0815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewer", "Viewer\Viewer.csproj", "{69E8636A-2EBC-4352-8FBB-CDB0C1842E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12562484-2C48-4262-8467-4AEE003E8B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12562484-2C48-4262-8467-4AEE003E8B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12562484-2C48-4262-8467-4AEE003E8B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12562484-2C48-4262-8467-4AEE003E8B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0366493-E368-4C8E-B32F-DCA07CA5F519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0366493-E368-4C8E-B32F-DCA07CA5F519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0366493-E368-4C8E-B32F-DCA07CA5F519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0366493-E368-4C8E-B32F-DCA07CA5F519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A57F72-641E-4D03-8F4A-ED14721A0815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A57F72-641E-4D03-8F4A-ED14721A0815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A57F72-641E-4D03-8F4A-ED14721A0815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A57F72-641E-4D03-8F4A-ED14721A0815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E8636A-2EBC-4352-8FBB-CDB0C1842E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E8636A-2EBC-4352-8FBB-CDB0C1842E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E8636A-2EBC-4352-8FBB-CDB0C1842E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E8636A-2EBC-4352-8FBB-CDB0C1842E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
